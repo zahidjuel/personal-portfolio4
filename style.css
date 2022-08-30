@@ -14,7 +14,7 @@ h2{
     color: orange;
 }
 
-.container{
+.flexible-container{
     display: flex;
 }
 
@@ -45,4 +45,33 @@ h2{
     background-position: 100% 65%;
 }
 
+.experiences-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100px 200px;
+    background-position: left center;
+}
+
+.experience-item{
+    width: 40%;
+    margin: 0% 5% 5%;
+    padding: 0% 2% 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#card-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(123, 62, 62), rgb(255, 0, 0));
+    border-image-slice: 1;
+}
+
+#card-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.text-center{
+    text-align: center;
+}
 
